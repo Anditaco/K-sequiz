@@ -1,0 +1,25 @@
+<html>
+<head>
+	<script src="handler.js"></script>
+</head>
+<body>
+	<h1>Willkommen nach die Käsequiz!</h1>
+	<h2>Machen die Quiz um welches Käse du bist zu wissen.</h2>
+
+
+	<div id="questions">
+
+	</div>
+
+	<br>
+	<input id="go" type="button" value="Gehen!" style="visibility: visible;" onclick="generateQuiz()">
+	<input id="done" type="button" value="Fertig Machen!" style="visibility: hidden;" onclick="scoreQuiz()">
+	<br>
+	<br>
+	<br>
+
+	<div id="results" style="visibility: hidden;">
+	Du bist <span id="ans"></span>!
+	</div>
+</body>
+</html>
